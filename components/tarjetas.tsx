@@ -25,8 +25,6 @@ function Card({ text }: CardProps) {
 }
 
 export default function App() {
-  const items = ["Card 1", "Card 2", "Card 3", "Card 4"];
-
   return (
     <View style={styles.container}>
       <Card text = "Card 1"/>
