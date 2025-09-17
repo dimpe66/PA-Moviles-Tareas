@@ -1,4 +1,4 @@
-import { Ionicons } from "@expo/vector-icons"; // opcional: icons
+import { Ionicons } from "@expo/vector-icons"; // opcional: icons // Puedo usar FontAwesome
 import { Tabs } from "expo-router";
 
 export default function TabsLayout() {

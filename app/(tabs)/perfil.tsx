@@ -4,6 +4,8 @@ import { Modal, Pressable, StyleSheet, Text, TextInput, View } from "react-nativ
 export default function EjemploModal() {
   const [visible, setVisible] = useState(false);
   const [name, setName] = useState("Nombre Apellido");
+  // podria usar un usestate mas de forma temporal para no ir cambiando cuando lo estoy escrbiendo el original
+  // mediante los links podremos pasar los parametros
 
   return (
     <View style={styles.container}>
